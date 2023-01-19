@@ -3,7 +3,7 @@ const app = express();
 
 const mongoose = require('mongoose');
 
-const note = require('./models/note');
+const note = require('./src/models/note');
 
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({extended:false}));
